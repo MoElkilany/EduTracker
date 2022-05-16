@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		0AE24726280AF91E004B3E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE24725280AF91E004B3E00 /* AppDelegate.swift */; };
-		0AE24728280AF91E004B3E00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE24727280AF91E004B3E00 /* SceneDelegate.swift */; };
 		0AE2472A280AF91E004B3E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE24729280AF91E004B3E00 /* ViewController.swift */; };
-		0AE2472D280AF91E004B3E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE2472B280AF91E004B3E00 /* Main.storyboard */; };
 		0AE2472F280AF921004B3E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE2472E280AF921004B3E00 /* Assets.xcassets */; };
 		0AE24732280AF921004B3E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE24730280AF921004B3E00 /* LaunchScreen.storyboard */; };
+		0AEAFCA22832A4DC00CEAF9C /* LandingPagesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AEAFCA12832A4DC00CEAF9C /* LandingPagesViewController.xib */; };
+		0AEAFCA62832A4FC00CEAF9C /* LandingPagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEAFCA52832A4FC00CEAF9C /* LandingPagesViewController.swift */; };
+		0AEAFCAA2832A5E700CEAF9C /* LandingPagesTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AEAFCA82832A5E700CEAF9C /* LandingPagesTableCell.swift */; };
+		0AEAFCAB2832A5E700CEAF9C /* LandingPagesTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AEAFCA92832A5E700CEAF9C /* LandingPagesTableCell.xib */; };
+		45B76DC3D31DE55546F18F56 /* Pods_EduTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE158E490739CBC400B88C2 /* Pods_EduTracker.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0AE24722280AF91E004B3E00 /* EduTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EduTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE24725280AF91E004B3E00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0AE24727280AF91E004B3E00 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0AE24729280AF91E004B3E00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0AE2472C280AF91E004B3E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AE2472E280AF921004B3E00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AE24731280AF921004B3E00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AE24733280AF921004B3E00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AEAFCA12832A4DC00CEAF9C /* LandingPagesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingPagesViewController.xib; sourceTree = "<group>"; };
+		0AEAFCA52832A4FC00CEAF9C /* LandingPagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPagesViewController.swift; sourceTree = "<group>"; };
+		0AEAFCA82832A5E700CEAF9C /* LandingPagesTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPagesTableCell.swift; sourceTree = "<group>"; };
+		0AEAFCA92832A5E700CEAF9C /* LandingPagesTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandingPagesTableCell.xib; sourceTree = "<group>"; };
+		6CE158E490739CBC400B88C2 /* Pods_EduTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EduTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		746314C8AD116FCDA9F21A8C /* Pods-EduTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTracker.debug.xcconfig"; path = "Target Support Files/Pods-EduTracker/Pods-EduTracker.debug.xcconfig"; sourceTree = "<group>"; };
+		7BCC7D0CD8B9FE28B393554E /* Pods-EduTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EduTracker.release.xcconfig"; path = "Target Support Files/Pods-EduTracker/Pods-EduTracker.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,68 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B76DC3D31DE55546F18F56 /* Pods_EduTracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AE231DC28329C96008D9542 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0AE24725280AF91E004B3E00 /* AppDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0AE231DD28329D8C008D9542 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0AE231DE28329D91008D9542 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0AEAFC9D2832A04900CEAF9C /* LandingPages */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0AE231DF28329E45008D9542 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0AE231E028329E54008D9542 /* Font */,
+				0AE2472E280AF921004B3E00 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0AE231E028329E54008D9542 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		0AE231E128329E65008D9542 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0AE24729280AF91E004B3E00 /* ViewController.swift */,
+				0AE24730280AF921004B3E00 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
 		0AE24719280AF91E004B3E00 = {
 			isa = PBXGroup;
 			children = (
 				0AE24724280AF91E004B3E00 /* EduTracker */,
 				0AE24723280AF91E004B3E00 /* Products */,
+				376A466CF8AB453D0EBA119F /* Pods */,
+				8BF4E837E91F48733EF514E8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +115,74 @@
 		0AE24724280AF91E004B3E00 /* EduTracker */ = {
 			isa = PBXGroup;
 			children = (
-				0AE24725280AF91E004B3E00 /* AppDelegate.swift */,
-				0AE24727280AF91E004B3E00 /* SceneDelegate.swift */,
-				0AE24729280AF91E004B3E00 /* ViewController.swift */,
-				0AE2472B280AF91E004B3E00 /* Main.storyboard */,
-				0AE2472E280AF921004B3E00 /* Assets.xcassets */,
-				0AE24730280AF921004B3E00 /* LaunchScreen.storyboard */,
+				0AE231DE28329D91008D9542 /* Modules */,
+				0AE231DC28329C96008D9542 /* Core */,
+				0AE231DF28329E45008D9542 /* Resources */,
+				0AE231DD28329D8C008D9542 /* Utilities */,
+				0AE231E128329E65008D9542 /* LaunchScreen */,
 				0AE24733280AF921004B3E00 /* Info.plist */,
 			);
 			path = EduTracker;
+			sourceTree = "<group>";
+		};
+		0AEAFC9D2832A04900CEAF9C /* LandingPages */ = {
+			isa = PBXGroup;
+			children = (
+				0AEAFCA02832A4B300CEAF9C /* ViewModel */,
+				0AEAFC9F2832A4AA00CEAF9C /* Model */,
+				0AEAFC9E2832A4A100CEAF9C /* View */,
+			);
+			path = LandingPages;
+			sourceTree = "<group>";
+		};
+		0AEAFC9E2832A4A100CEAF9C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0AEAFCA72832A5A100CEAF9C /* Cell */,
+				0AEAFCA12832A4DC00CEAF9C /* LandingPagesViewController.xib */,
+				0AEAFCA52832A4FC00CEAF9C /* LandingPagesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0AEAFC9F2832A4AA00CEAF9C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0AEAFCA02832A4B300CEAF9C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0AEAFCA72832A5A100CEAF9C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				0AEAFCA82832A5E700CEAF9C /* LandingPagesTableCell.swift */,
+				0AEAFCA92832A5E700CEAF9C /* LandingPagesTableCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		376A466CF8AB453D0EBA119F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				746314C8AD116FCDA9F21A8C /* Pods-EduTracker.debug.xcconfig */,
+				7BCC7D0CD8B9FE28B393554E /* Pods-EduTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BF4E837E91F48733EF514E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6CE158E490739CBC400B88C2 /* Pods_EduTracker.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0AE24736280AF921004B3E00 /* Build configuration list for PBXNativeTarget "EduTracker" */;
 			buildPhases = (
+				26D30E648AB573325C39CFD2 /* [CP] Check Pods Manifest.lock */,
 				0AE2471E280AF91E004B3E00 /* Sources */,
 				0AE2471F280AF91E004B3E00 /* Frameworks */,
 				0AE24720280AF91E004B3E00 /* Resources */,
+				363B9A74BEBB82038C1A6B88 /* [CP] Embed Pods Frameworks */,
+				BC4C53BC1E5842A5C5D3C257 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,34 +248,87 @@
 			files = (
 				0AE24732280AF921004B3E00 /* LaunchScreen.storyboard in Resources */,
 				0AE2472F280AF921004B3E00 /* Assets.xcassets in Resources */,
-				0AE2472D280AF91E004B3E00 /* Main.storyboard in Resources */,
+				0AEAFCA22832A4DC00CEAF9C /* LandingPagesViewController.xib in Resources */,
+				0AEAFCAB2832A5E700CEAF9C /* LandingPagesTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		26D30E648AB573325C39CFD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EduTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		363B9A74BEBB82038C1A6B88 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EduTracker/Pods-EduTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EduTracker/Pods-EduTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EduTracker/Pods-EduTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4C53BC1E5842A5C5D3C257 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EduTracker/Pods-EduTracker-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EduTracker/Pods-EduTracker-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EduTracker/Pods-EduTracker-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0AE2471E280AF91E004B3E00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AEAFCA62832A4FC00CEAF9C /* LandingPagesViewController.swift in Sources */,
 				0AE2472A280AF91E004B3E00 /* ViewController.swift in Sources */,
 				0AE24726280AF91E004B3E00 /* AppDelegate.swift in Sources */,
-				0AE24728280AF91E004B3E00 /* SceneDelegate.swift in Sources */,
+				0AEAFCAA2832A5E700CEAF9C /* LandingPagesTableCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0AE2472B280AF91E004B3E00 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0AE2472C280AF91E004B3E00 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0AE24730280AF921004B3E00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +458,7 @@
 		};
 		0AE24737280AF921004B3E00 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 746314C8AD116FCDA9F21A8C /* Pods-EduTracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,9 +469,10 @@
 				INFOPLIST_FILE = EduTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +488,7 @@
 		};
 		0AE24738280AF921004B3E00 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BCC7D0CD8B9FE28B393554E /* Pods-EduTracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,9 +499,10 @@
 				INFOPLIST_FILE = EduTracker/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -1,0 +1,6 @@
+framework module Pods_EduTracker {
+  umbrella header "Pods-EduTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

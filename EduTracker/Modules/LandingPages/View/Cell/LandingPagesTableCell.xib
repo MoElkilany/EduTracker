@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Bold.ttf">
+            <string>Cairo-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="LandingPagesTableCell" id="Oqs-5N-y5u" customClass="LandingPagesTableCell">
+            <rect key="frame" x="0.0" y="0.0" width="372" height="637"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="372" height="637"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nhT-Dp-FtV">
+                        <rect key="frame" x="20" y="4" width="332" height="629"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Walk1" translatesAutoresizingMaskIntoConstraints="NO" id="Ach-Us-O7n">
+                                <rect key="frame" x="12" y="64" width="308" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="jby-sf-2SJ"/>
+                                </constraints>
+                            </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="يمكنك التحكم بسلوكيات اطفالك" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZE-Fm-977">
+                                <rect key="frame" x="16" y="381" width="300" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="gLs-Iu-ncW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="17"/>
+                                <color key="textColor" name="0C0A19"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fvL-ky-2pG">
+                                <rect key="frame" x="16" y="427" width="300" height="0.0"/>
+                                <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="18"/>
+                                <color key="textColor" name="0C0A19"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SM4-pg-nGC" customClass="CornerButton" customModule="ExcellentApp" customModuleProvider="target">
+                                <rect key="frame" x="32" y="463.5" width="268" height="50"/>
+                                <color key="backgroundColor" name="7966FD"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="vej-0d-RUX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Cairo-Bold" family="Cairo" pointSize="16"/>
+                                <state key="normal" title="استمرار">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextBtn:" destination="Oqs-5N-y5u" eventType="touchUpInside" id="ELJ-UI-Kun"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="SM4-pg-nGC" firstAttribute="leading" secondItem="nhT-Dp-FtV" secondAttribute="leading" constant="32" id="0CG-Ih-EGm"/>
+                            <constraint firstItem="Ach-Us-O7n" firstAttribute="top" secondItem="nhT-Dp-FtV" secondAttribute="top" constant="64" id="0jd-FX-lNx"/>
+                            <constraint firstAttribute="trailing" secondItem="Ach-Us-O7n" secondAttribute="trailing" constant="12" id="3xM-Se-WaD"/>
+                            <constraint firstItem="fvL-ky-2pG" firstAttribute="leading" secondItem="nhT-Dp-FtV" secondAttribute="leading" constant="16" id="4ik-5z-m3g"/>
+                            <constraint firstItem="SM4-pg-nGC" firstAttribute="top" secondItem="fvL-ky-2pG" secondAttribute="bottom" constant="36.5" id="5ee-7m-hsg"/>
+                            <constraint firstItem="SZE-Fm-977" firstAttribute="leading" secondItem="nhT-Dp-FtV" secondAttribute="leading" constant="16" id="86Z-Uq-TAV"/>
+                            <constraint firstItem="SZE-Fm-977" firstAttribute="top" secondItem="Ach-Us-O7n" secondAttribute="bottom" constant="17" id="8pD-lb-FyW"/>
+                            <constraint firstAttribute="trailing" secondItem="SM4-pg-nGC" secondAttribute="trailing" constant="32" id="9g4-1a-bAy"/>
+                            <constraint firstItem="SZE-Fm-977" firstAttribute="centerX" secondItem="nhT-Dp-FtV" secondAttribute="centerX" id="BgW-64-BFl"/>
+                            <constraint firstItem="fvL-ky-2pG" firstAttribute="top" secondItem="SZE-Fm-977" secondAttribute="bottom" constant="4" id="IAZ-Ct-hgd"/>
+                            <constraint firstItem="fvL-ky-2pG" firstAttribute="centerX" secondItem="nhT-Dp-FtV" secondAttribute="centerX" id="IUE-Kf-uOg"/>
+                            <constraint firstAttribute="trailing" secondItem="SZE-Fm-977" secondAttribute="trailing" constant="16" id="Jtp-wc-Yjb"/>
+                            <constraint firstAttribute="trailing" secondItem="fvL-ky-2pG" secondAttribute="trailing" constant="16" id="TfD-ES-aTA"/>
+                            <constraint firstItem="Ach-Us-O7n" firstAttribute="centerX" secondItem="nhT-Dp-FtV" secondAttribute="centerX" id="Vix-Au-CFM"/>
+                            <constraint firstItem="Ach-Us-O7n" firstAttribute="leading" secondItem="nhT-Dp-FtV" secondAttribute="leading" constant="12" id="wDp-bL-B1m"/>
+                            <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="SM4-pg-nGC" secondAttribute="bottom" constant="12" id="ypa-b8-8Qq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="kQb-CC-fwe"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nhT-Dp-FtV" secondAttribute="trailing" constant="20" id="0K5-Z3-yP9"/>
+                <constraint firstItem="nhT-Dp-FtV" firstAttribute="top" secondItem="Oqs-5N-y5u" secondAttribute="top" constant="4" id="0bl-bp-Ti6"/>
+                <constraint firstAttribute="bottom" secondItem="nhT-Dp-FtV" secondAttribute="bottom" constant="4" id="2sv-hu-MBu"/>
+                <constraint firstItem="nhT-Dp-FtV" firstAttribute="leading" secondItem="Oqs-5N-y5u" secondAttribute="leading" constant="20" id="9jh-6J-Gb3"/>
+            </constraints>
+            <size key="customSize" width="319" height="637"/>
+            <connections>
+                <outlet property="decLbl" destination="fvL-ky-2pG" id="Dtj-V7-g9G"/>
+                <outlet property="nextBtn" destination="SM4-pg-nGC" id="lq2-Uq-2RU"/>
+                <outlet property="titleLbl" destination="SZE-Fm-977" id="IEh-oM-Wo9"/>
+                <outlet property="welcomeImge" destination="Ach-Us-O7n" id="w0d-Om-TmH"/>
+            </connections>
+            <point key="canvasLocation" x="331.8840579710145" y="329.79910714285711"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Walk1" width="341" height="246"/>
+        <namedColor name="0C0A19">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="7966FD">
+            <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
