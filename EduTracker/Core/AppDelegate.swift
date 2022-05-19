@@ -13,16 +13,16 @@ import IQKeyboardManagerSwift
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
-    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         window = UIWindow(frame: UIScreen.main.bounds)
-//        LocalizationManager.shared.setAppInnitLanguage()
-//        LocalizationManager.shared.delegate = self
+     // LocalizationManager.shared.setAppInnitLanguage()
+     // LocalizationManager.shared.delegate = self
+        Swinject.register()
         IQKeyboardManager.shared.enable  = true
         IQKeyboardManager.shared.shouldResignOnTouchOutside = true
-       let splashNC  =  ViewController()
-       window?.rootViewController = splashNC
-       window?.makeKeyAndVisible()
+        let splashNC  =  ViewController()
+        window?.rootViewController = splashNC
+        window?.makeKeyAndVisible()
         
         return true
     }

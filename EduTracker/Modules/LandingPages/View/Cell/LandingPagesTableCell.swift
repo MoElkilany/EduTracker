@@ -12,7 +12,7 @@ class LandingPagesTableCell: UITableViewCell {
     @IBOutlet weak var titleLbl: UILabel!
     @IBOutlet weak var decLbl: UILabel!
     @IBOutlet weak var welcomeImge: UIImageView!
-    @IBOutlet weak var nextBtn: CornerButton!
+    @IBOutlet weak var nextBtn: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()

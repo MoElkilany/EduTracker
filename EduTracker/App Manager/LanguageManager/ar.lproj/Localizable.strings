@@ -1,0 +1,704 @@
+/* 
+  Localizable.strings
+  Egarr
+
+  Created by Mohamed Elkilany on 4/1/21.
+  
+*/
+//"add New gift"
+//"gift name"
+//"Enter the gift name"
+//"Please Enter the gift name"
+//"Please choose the gift Image"
+
+
+"Please choose the application language" = "يرجي اختيار لغه التطبيق";
+
+//MARK: Splash
+
+"Choose your language" = "أختر لغتك";
+
+"welcome .. !" = "ياهلا والله ...!";
+"united_states" = "united_states";
+"We congratulate you on choosing the right path for a life full of accomplishments, God Almighty willing" = "نهنئكم بإختيار الطريق الصحيح لحياة مليئة بالإنجازات بإذن االله تعالى" ;
+"Next" = "التالي" ;
+//"English" = "English";
+"Start your experiment now" = "إبدا تجربتك الان";
+
+//MARK: Auth
+"welcome" = "مرحبا بك";
+"Please choose the type of registration" = "برجاء اختيار نوع التسجيل";
+"Login" = "تسجيل دخول " ;
+"SignUp" = "انشاء حساب";
+"Skip" = "تخطي";
+
+
+
+//MARK: Login
+"Welcome Back" = "أهلا بعودتك";
+"Log in to your account again" = "تسجيل الدخول الى حسابك من جديد";
+"Phone Number" = "رقم الجوال";
+"Please Enter your phone" = "الرجاء ادخال البريد الإلكتروني";
+"Password" = "كلمة المرور";
+"Please enter the ID" = "الرجاء إدخال الرقم التعريفي";
+"Please Enter your Password" = "الرجاء ادخال كلمة المرور";
+"Forget Password" = " نسيت كلمة المرور؟";
+"Forget PasswordLab" = " نسيت كلمة المرور";
+
+"Login" = "تسجيل دخول";
+"You Don't have Account?" = "ليس لديك حساب  ؟";
+"Press Here" = "اضغط هنا";
+"Password Recovery" = "إسترجاع كلمة المرور";
+"Enter the mobile number you are registered with in order to send the verification code" = "ادخل رقم الجوال المسجل به حتى يتم إرسال كود التحقق عليه";
+"confirmation" = "التأكيد";
+
+"the is Account is provider,  Please Login by User Account" = "هذا حساب مقدم خدمة الرجاء تسجيل الدخول باستخدام حساب مستخدم";
+"Enter As A Visitor" = "الدخول كزائر";
+
+
+"Parents login" = "تسجيل دخول الآباء";
+"Email or mobile number" = "البريد الالكتروني ";
+"Create an account now" = "قم بأنشاء حساب الان";
+"Don't have Account?" = "لا تمتلك حساباً ؟";
+"Child application" = "تطبيق الطفل";
+"Enter your email or mobile number To recover your password" = "ادخل البريد الالكتروني
+لاسترداد كلمة المرور الخاصة بك";
+
+"Email Or Phone" = "الرجاء إدخال البريد الالكتروني ";
+"please complete verification Code" = "الرجاء إكمال كود التحقق ";
+
+"Child login"  =  "تسجيل دخول الطفل";
+"Get login information through an app Bits for parents"  =  "احصل على معلومات الدخول من خلال تطبيق
+شطور للآباء";
+"ID number"  = "الرقم التعريفي ";
+"Sign in with barcode"  = "تسجيل الدخول بالباركود";
+"Please Enter the ID number" = "الرجاء إدخال الرقم التعريفي";
+
+
+
+//MARK: SignUp
+
+"Sign Up" = "إنشاء حساب";
+"Register With us" = "مسجل لدينا";
+"Press Here" = "اضغط هنا";
+"By registering, you agree to the terms and conditions" = "بالتسجيل ، فإنك توافق على الشروط والأحكام";
+"Skip Register" = "تخطي التسجيل";
+"Create Account" = "إنشاء حساب";
+"user Name" = "اسم المستخدم";
+"Please Enter your user Name" = "الرجاء كتابة اسم المستخدم";
+"Contacts Information" =  "معلومات التواصل";
+"Phone Number" = "رقم المحمول  ";
+"You will be logged in and a verification code will be sent to this number" = "سيتم تسجيل الدخول وارسال رمز التحقق على هذا الرقم";
+"Email" = "البريد الالكتروني ";
+"please enter valid email" = "الرجاء إدخال بريد إلكتروني صحيح";
+"please Enter your Email" = "الرجاء إدخال البريد الالكتروني";
+"Password" = "كلمة المرور  ";
+"Confirm Password" = "تآكيد كلمة المرور  ";
+
+"please Enter Confirm Password " = "الرجاء إدخال تاكيد كلمة المرور ";
+"What are your vision and ambitions to help you achieve it?" = "ما هي رؤيتك وطموحاتك لمساعدتك في تحقيقها؟";
+
+"Please Enter your answer" = "الرجاء ادخال اجابتك";
+"Register your data in order to create a new account" = "سجل بياناتك من اجل انشاء حساب جديد";
+"Yes" = "نعم";
+"No" = "لا";
+"cash" = "كاش";
+"online" = "اون لاين";
+"Register your data in order to create a new account" =  "سجل بياناتك من اجل انشاء حساب جديد";
+"Please Enter your user Name" = "الرجاء ادخال إسم المستخدم";
+
+"your Account Updated successfully" = "تم تحديث حسابك بنجاح";
+"Verification" = "التحقق";
+"Enter the code that was sent to the number" = "قم بأدخل الرمز الذي تم ارساله الى البريد الإلكتروني
+";
+"Resend the code after" = "إعادة ارسال الرمز";
+
+"Enter a new password for your account Through it you can log in" = "قم بإدخال كلمة مرور جديدة لحسابك
+من خلالها يمكنك تسجيل الدخول";
+ 
+ 
+"Reset the password" = "اعادة تعين كلمة المرور";
+ "Create a new account" = "انشاء حساب حديد";
+
+
+
+"Create a new account" = "انشاء حساب حديد";
+"Full Name" = "الاسم كامل";
+"Sex" = "الجنس ";
+"Relative relation" = "صلة القرابة";
+"Create Account" = "انشاء حساب";
+"Have Account?" = "هل تمتلك حساباً ؟";
+"Login Now" = "سجل الدخول الان";
+
+"Male"    = "ذكر ";
+"Female" = "آنثي";
+"Father" = "آب";
+"mother" = "آم";
+"uncle" = "عم";
+"Aunt" = "عمه";
+"Teacher" = "معلم";
+
+
+//MARK: verificationPassWord
+
+"Validation Code" = "كود التفعيل";
+"Resend the code again" = "أعد إرسال الكود مرة أخرى";
+"Please enter the code sent to you via the mobile number" = "برجاء ادخال الكود المرسل اليك عبر رقم الجوال";
+"Verification code for your number" = "رمز التحقق لرقمك";
+"Please enter the code sent to you via the mobile number" = "الرجاء إدخال الرمز المرسل لك عبر رقم الهاتف المحمول";
+"There is no registered email" = "لا يوجد بريدإلكتروني مسجل";
+
+//"رمز التحقق لرقمك"
+"If you want to activate" = "إذا تود تفعيل الحساب عن طريق البريد الإلكتروني المسجل فيمكنك الضغط هنا";
+"Pleace  choose different times" = "الرجاء إختيار اوقات مختلفة";
+
+
+//MARK: new password
+
+"Please enter the new password" = "برجاء ادخال كلمة المرور الجديدة";
+"New Password" = "كلمة المرور الجديدة";
+"Please Enter New Password" = "الرجاء ادخال كلمة المرور ";
+"Confirm New Password" = "تأكيد كلمة المرور الجديدة";
+"Please Enter Confirm New Password" = "الرجاء تأكيد كلمة المرور الجديدة";
+
+"Old Password" = "كلمة المرور القديمة";
+"Please enter your old password" = "الرجاء إدخال كلمة المرور القديمة";
+"ChangePassword" = "تغيير كلمة المرور";
+"Something went wrong" = "حدث خطأ ";
+"Something wrong" = "حدث خطأ ما ";
+"Sign in for children" = "تسجيل دخول للابناء";
+//MARK: verificationPassWord
+"Verification code for your number" = "كود التحقق من رقمك";
+"If you want to activate the account by e-mail
+Recorder, you can click here" = "إذا تود تفعيل الحساب عن طريق البريد الإلكتروني المسجل يمكنك الضغط هنا";
+
+"OK" = "حسناً";
+"ok" = "نعم";
+
+//MARK: ValidationMessages
+"Error" = "خطآ";
+
+"Success" = "عملية ناجحة";
+"Server Error" = "خطآ في الخادم";
+"There is no Data Found" = "لا يوجد بيانات";
+"You Don't have Subsection Please Add Subsection" = "الرجاء إضافة قسم فرعي جديد";
+"the is Account is User,  Please Login by Provider Account" = "الحساب هو مستخدم ، يرجى تسجيل الدخول عن طريق حساب الموفر";
+"Phone is Empty" = "الرجاء إدخال رقم الهاتف";
+"Enter valid Phone Number" = "يرجي إدخال رقم جوال صحيح";
+"Password is Empty" = " كلمة المرور فارغة";
+"please enter phone number" = "الرجاء إدخال رقم الجوال";
+"Enter valid Password" = "يرجي إدخال رقم سري صحيح";
+"User Name is Empty" =  "الرجاء إدخال اسم المستخدم";
+"Verification Code is Empty" = "الرجاء إدخال كود التحقق ";
+"Password does not match" = "كلمة السر غير متطابقة";
+"Confirm Password is Empty " = "تآكيد كلمه المرور فارغ";
+"Current Password is Empty " = "كلمة المرور الجديدة فارغة";
+"Current Password" = "كلمة المرور القديمة";
+
+"New Password is Empty " = "كلمة المرور الجديدة فارغة";
+"Complaint or suggestion Address is Empty" =  "عنوان الشكوي او المقترح فارغ";
+"Complaint or suggestion Text is Empty" = "نص الشكوي او المقترح فارغ";
+"arabic Name is Empty" = "اسم المنتج باللغة العربية فارغ ";
+"english Name is Empty" = "اسم المنتج باللغة الانجليزية  فارغ ";
+"arabic Description is Empty" = "وصف المنتج باللغه العربية فارغ";
+"english Description is Empty" = "وصف المنتج باللغه الانجليزية  فارغ";
+"whatsApp number is Empty" = "رقم الواتساب فارغ ";
+"Main Section is Empty" = "القسم الرئسي فارغ";
+"Please Choose Photo" = "من فضلك قم بإختيار صورة";
+"The Load type is Empty" = "نوع الحمولة فارغ";
+"the receiving destination is Empty" = "وجهة الإستلام فارغ";
+"destination of delivery is Empty" = "وجهة التسليم فارغ";
+"Enter valid WhatsApp Number" = "يرجي إدخال رقم واتساب صحيح مكون من ٩ ارقام";
+"Vehicl Type is Empty" = "نوع المركبة فارغ";
+"Load Type is Empty"  = "نوع النقل فارغ ";
+"Driving License Image is Empty" = "من فضلك قم باختيار صورة الرخصة ";
+"Vehicle Plate Image is Empty" = "من فضلك قم بإختيار لوحة المركبة";
+"Internet Connection Faild" = "حدث خطأ في الإتصال بالإنترنت الرجاء المحاولة مرة اخري";
+"retry" = "حاول مرة اخري";
+
+"Logout successfully" = "تم تسجيل الخروج بنجاح";
+"You are a visitor Please login" = "انت ذائر يرجي تسجل الدخول ";
+"Has been resent an activation code" = "تم اعادة ارسال كود التفعيل";
+"All" = "جميع الأبناء";
+"Conncetivity" = "يرجي الاتصال بالانترنت";
+"You are Join as Driver" = "انت بالفعل سائق";
+"Modification" = "تعديل";
+"Delete" = "حذف";
+"Deleted successfully" = "تم الحذف بنجاح";
+"Contact Information" = "معلومات التواصل";
+"Please enter the Commercial number consist of at least 9 numbers" = "الرجاء إدخال الرقم التجاري مكون من 9 أرقام على الأقل";
+"Please enter  Description In English" = "الرجاءإدخال الوصف باللغه الآنجليزية";
+ "Please enter  Description In Arabic"=  "الرجاء إدخال الوصف باللغه العرية";
+"Please enter the Password number consist of at least 6 numbers" = "الرجاء إدخال الرقم السري مكون من ٦ أرقام على الأقل";
+"Please enter the IBan number that consist of at least 9 numbers" = "الرجاء إدخال رقم الايبان مكون من ٩ أرقام على الأقل";
+
+"The discount price must be less than the product price" = "يجب ان يكون سعر الخصم اقل من سعر المنتج";
+
+//MARK: ChooseIMageAlert
+"Choose Image" = "إختر صورة ";
+"Pick Image From" =  "إلتقاط صورة من ";
+"Gallery" = "معرض الصور";
+"Camera" = "الكاميرا";
+"Cancel" = "إلغاء";
+
+
+//MARK: Tab Bar Controller
+"Products" = "المنتجات";
+"Appointments" = "المواعيد";
+"Orders" = "الطلبات";
+"More" = "المزيد";
+
+//MARK: Home
+"Home" = "الرئيسية";
+
+//MARK: TabBar
+
+//MARK: Main
+"Main" = "الرئيسية";
+//MARK: My Reservations
+"My Reservations" = "حجوزاتى";
+
+//MARK: My purchases
+"My purchases" = "مشترياتي";
+
+//MARK: More
+"More" = "المزيد";
+"My Account" = "حسابى";
+"Messages" = "الرسائل";
+"Settings" = "الاعدادات";
+"Favorite" = "المفضلة";
+"Wallet" = "المحفظة";
+"Subscription packages" = "باقات الاشتراك";
+"Advertise and Distinguish" = "أعلن وتميز";
+"Call us" = "اتصل بنا";
+"who are we" = "من نحن";
+"Terms and Conditions" = "الشروط والاحكام";
+"Application language" = "لغة التطبيق";
+"Night mode" = "الوضع الليلى";
+"sign out" = "تسجيل الخروج";
+"Messages" = "الرسائل";
+"Message Details" = "تفاصيل الرسالة";
+"Payment method" = "طريقة الدفع";
+"your Message" = "رسالتك";
+"Please Enter your Message" = "الرجاء إدخال رسالتك";
+"Send" = "إرسال";
+"App Language" = "لغة التطبيق" ;
+"Please choose the application language you want" = "برجاء اختيار لغة التطبيق التي تريدها";
+"your Desier Amount" = "المبلغ المراد";
+
+"Change Password" = "تغير كلمة المرور";
+"Save Modification" = "حفظ التعديلات";
+"Activity Edit" = "تعديل النشاط";
+"Goal Edit" = "تعديل الهدف";
+"Gift Edit" = "تعديل المكافاة";
+
+//MARK: Wallet
+"Your available balance" =  "رصيدك المتوفر";
+"Balance recovery" = "إستعادة الرصيد";
+"recharge the balance" = "شحن رصيد";
+"Payment Confirmation" = "تآكيد الدفع";
+"The name of the bank" = "اسم المصرف";
+"Account name"  = "اسم الحساب";
+"Account number" = "رقم الحساب";
+"IBAN number" = "رقم الايبان  ";
+"Please Enter your Desier Amount" =  "برجاء إدخال المبلغ المراد إستعادته";
+
+
+
+
+//MARK: Payment Data
+"Payment data" = "بيانات الدفع";
+"Please Enter Account Holder's Name " = "برجاء إدخال اسم صاحب الحساب";
+"Please Enter the amount paid" = "برجاء إدخال اسم البنك";
+"Please Attach the picture of the transfer " = "برجاءإرفاق صورة الحوالة";
+
+"Account Holder's Name" = "اسم صاحب الحساب";
+"The amount paid" = "المبلغ المدفوع";
+"Attach a the picture of the transfer" = "إرفاق صورة الحوالة";
+"Please attach a the picture of the transfer" = "الرجاء إرفاق صورة الحوالة";
+"Delivery service has changed successfully" = "تم تغير خدمة التوصيل بنجاح";
+"Please specify the length and timing of the appointment" = "الرجاء تحديد مدة وتوقيت الموعد";
+"Payment information has been added successfully" = "تم إضافة بيانات الدفع بنجاح";
+"Next" = "التالي";
+"Bank name" = "اسم البنك  ";
+"Please enter bank name" = "الرجاء ادخال اسم البنك";
+"Beneficiary Name" = "اسم المستفيد  ";
+"Please enter beneficiary name" = "الرجاء ادخال اسم المستفيد";
+"IBAN number" = "رقم الايبان  ";
+"Please enter iBAN Number name" = "الرجاء ادخال رقم الايبان";
+"The main picture has been attached" = "تم إرفاق الصورة بنجاح";
+
+"noContent" =  "لا يوجد محتوى الرجاء إختيار طفل آخر";
+
+
+//MARK: SubCategory Details
+"Show" = "إظهار";
+"Sort" = "ترتيب حسب";
+"km" = " كم  ";
+"Closed" =  "مغلق ";
+"maintenance" = "تحت الصيانة";
+
+"Nearest distance" = "الاقرب مسافة";
+" highest rated" = "الاعلي تقيما";
+"most wanted" = "الاكثر طلبا";
+"list" = "قائمة";
+"Table" = "جدول";
+"map" = "خريطة";
+
+
+"Search" = "بحث";
+"Please Enter Search words" = "الرجاء إدخال كلمات البحث";
+"Sorry .. !" = "نآسف ..!";
+"Service introduction outside working hours" = "مقدم الخدمة خارج ساعات العمل";
+"Service introduction under maintenance" = "مقدم الخدمة تحت الصيانة";
+
+//MARK: Procvider Details
+
+"Open" = "مفتوح";
+"Descriptoin" = "الوصف";
+"Work Time"  = "آوقات العمل";
+"Show Times" = "عرض الاوقات";
+"Service" = "الخدمات";
+"     Have a  Conversation" = "     إجراء محادثة";
+"Comments" = "التعليقات";
+"Work Times" = "آوقات العمل";
+"there is no working time" = "لا يوجد اوقات عمل";
+
+
+//MARK:  ServiceDetails
+"Service Details" = "تفاصيل الخدمة";
+"Pay the full amount" = "دفع المبلغ كاملا";
+"Paying part of the amount to guarantee the reservation" = "دفع جزء من المبلغ لضمان الحجز";
+
+"Pay the full amount " = "دفع المبلغ كاملا";
+"SAR after discount" = "السعر بعد الخصم";
+
+"Discount" = " خصم  ";
+"the amount to be paid is" = "المبلغ المراد دفعه هو" ;
+"SAR" = " رس ";
+"Reserve Service" = "احجز الخدمة الآن";
+
+
+//MARK: The date of the reservation
+"The date of the reservation" = "موعد الحجز";
+"Select Day" = "تحديد اليوم";
+"Select Time"  = "تحديد الوقت";
+"your Notes" = "اضف ملاحظاتك";
+"please enter Your Notes" =  "الرجاء ادخال ملاحظاتك";
+"please Chosse the Service Fee" = "الرجاء إختيار رسوم الخدمة";
+"Please choose Valid date" =  "الرجاء إختيار تاريخ صحيح";
+"Confirm Reservations" =  "تآكيد الحجز";
+
+"This is not refundable" =  "هذاالحجز غير قابل للاسترداد";
+"This is refundable" =  "هذاالحجز قابل للاسترداد";
+"Done" = "تم";
+
+"Please choose The Date" =  "الرجاء إختيار التاريخ";
+"Please choose The Time" = "الرجاء إختيار الوقت";
+"Follow reservation" = "متابعة الحجز ";
+"Follow Order" = "متابعة الطلب";
+"Notification" = "الإشعارات";
+"The request has been sent successfully" =  "تهانينا تم إرسال طلبك بنجاح";
+"You can track your order from the My Purchases section" = "يمكنك متابعة طلبك من خانة مشترياتى";
+"You can track your request from the My Reservations section" = "يمكنك متابعة طلبك من خانة حجوزاتى";
+
+"Back to main" = "الرجوع للرئيسية";
+"order number" = "رقم الطلب";
+"order type" = "نوع الطلب";
+
+"current Order" = "الطالبات الحالية";
+"completed Order" = "الطالبات المنتهية";
+
+
+
+//MARK: Reseration Details
+"Order Summary" = "ملخص الطلب";
+"Order Details" = "تفاصيل الطلب";
+"Order number" = "رقم الطلب";
+
+"Service type" = "نوع الخدمة";
+"Service price" = "سعر الخدمة";
+"The amount paid" = "المبلغ المدفوع";
+
+"The date on which the order was created" = "تاريخ إنشاء الطلب";
+"booking date" = "تاريخ الحجز";
+"Time of booking" = "وقت الحجز";
+"Booking details" =  "تفاصيل الحجز";
+"Services Details" = "تفاصيل الخدمة";
+"Please Choose the Cancel Reason" = "الرجاء إختيار سبب الرفض ";
+"Send" = "إرسال";
+
+"the reason of refuse" = "سبب الرفض";
+"Reason for cancellation" = "سبب الإلغاء";
+"The reason for rejection was sent successfully" = "تم إرسال سبب الرفض ";
+"Follow Order" = "متابعة الطلب";
+"Request Sent" = "تم ارسال الطلب";
+"The order has been confirmed" = "تم تأكيد الطلب";
+"The request has been completed" = "تم إكتمال الطلب";
+"Canel Order" = "إلغاء الطلب";
+"Rate Order" = "قيم الخدمة";
+"Cancelation Reason" = "سبب الرفض";
+"Order Canceled" = "تم الإلغاء" ;
+
+"Reason for Reporting" = "سبب الإبلاغ";
+ "Reason for cancellation" =  "سبب الرفض";
+"Dismiss" = "رجوع";
+"Back" = "رجوع";
+"Submit the reason for reporting successfully" = "تم إرسال سبب الإبلاغ بنجاح";
+"The cancellation was successful" = "تم الإلغاء بنجاح";
+
+"Please rate the Provider" = "من فضلك قم بتقييم مقدم الخدمة";
+"Your rating has been added successfully" = "تم إضافة تقييمك بنجاح";
+"Your Comment" = "تعليقك";
+"write your comment" = "إكتب تعليقك";
+
+//MARK: MyPurchaseVC
+"pending Payment Order" = "طالبات قيد الدفع";
+"On Way" = "في الطريق";
+
+
+"Order number" = "رقم الطلب";
+"Phone number" = "رقم الجوال";
+"Payment method" = "طريقة الدفع";
+"The date of application" =  "تاريخ الطلب";
+"preferences" = "التفضيلات";
+"Notes" = "الملاحظات";
+"receive Order" = "إستلام الطلب";
+"products" = "ملخص الطلب";
+"Products value" = "قيمة المنتجات ";
+"The tax amount" = "قيمة الضريبة";
+"Delivery price" = "سعر التوصيل";
+"Delivery Address" = "مكان التوصيل";
+
+"Total" = "المجموع";
+"Order Delivered" = "تم إستلام الطلب";
+"products" = "المنتجات";
+
+"Yes" = "نعم";
+"No" = "لا";
+"Do you want to log out?" = " هل تريد تسجيل الخروج ";
+"You are visitor please login" = "الرجاء تسجيل الدخول ";
+"Receive And Confirm Order" = "تم إستلام الطلب";
+
+//MARK: Product Details
+"Required quantity" =  "حدد الكمية";
+"Add your Favorite" = "آضف تفضيلاتك";
+"Add to Cart" = "آصف للسلة";
+"km" = "كم";
+"Cart" = "سلة المشتريات";
+"canceled" = "ملغي";
+
+
+//MARK: cart PopUp
+"The product has been added to the cart" =  "تم إضافة المنتج للسلة";
+"Complete the purchase" = "إتمام الشراء";
+"othre Products" = "منتجات اخرى";
+"this product Exist in cart" = "هذا المنتج موجود في السلة من قبل ";
+"delivery Address" = "عنوان التسليم";
+
+"your Message" = "رسالتك";
+"Please Enter your Message" = "الرجاء إدخال رسالتك";
+"Complete The Request" = "إتمام الطلب";
+"your Notes For Provider" = "الرجاء ادخال  ملاحظاتك لمقدم الخدمة";
+
+"Delivery service is available, press to request service" = "متوفر خدمة توصيل , اضغط لطلب الخدمة";
+"Confirm" = "تآكيد";
+"Please enter a delivery address" = "الرجاء إدخال عنوان التسليم";
+"Map" = "الخريطة";
+"Choose" = "إختر";
+"Please enter your message" = "ادخل رسالتك";
+"Our dear partner .. We aspire to a successful partnership with you, and due to the large number of applicants, the application may take up to five working days to review and approve your application." = "شريكنا العزيز .. نطمح إلى شراكة ناجحة معك ، وبسبب العدد الكبير من المتقدمين ، قد يستغرق الطلب ما يصل إلى خمسة أيام عمل لمراجعة طلبك والموافقة عليه";
+"Congratulations. Your data has been successfully submitted" = "تهانينا ، لقد تم إرسال بياناتك بنجاح";
+"Thank you" = "شكرا لك";
+
+"Your balance" = "رصيدك";
+"You can purchase your reward from the Shator store" = " يمكنك شراء مكافأتك من متجر شطور";
+"Activities" = "أنشطة";
+"Goals" = "أهداف";
+"Grant" = "منح";
+"Discounts" = "خصومات";
+"Premium" = "بريميوم";
+"Hi Mohamed Al-Shator" = "اهلا محمد الشطور";
+"Bonus Store" = "متجر المكافأة";
+"Bonus request" = "طلب المكافأة";
+"Shatour" = "شطور" ;
+"Log in to the parent application"= "الدخول الى تطبيق الآباء" ;
+"Change image"= "تغير الصورة " ;
+"The language"= "اللغة" ;
+"sign out"= "تسجيل الخروج" ;
+"Know the features" = "اعرف المميزات";
+"You can change the application language" = "يمكنك تغير  لغة التطبيق ";
+"the Language" = "اللغة";
+"Choose Language" = "إختر اللغة";
+"Sons"  = "الأبناء";
+"mission" = "المهام";
+"statistics" = "الأحصائيات";
+"reward" = "المكافأة";
+"There is no rewards" = "لا يوجد مكافأت";
+
+"Buy your gift for your child at the gift shop" = "اشتري هديتك لطفلك من متجر الهدايا";
+"My Child" = "أبنائي";
+"Add Task" = "أضافة مهمة ";
+"noChild" = "لا يوجد أبناء مسجلين  يمكنك إضافة طفلك
+من خلال ايقونة إضافة ";
+
+"Enter the child's name" = "ادخل اسم الطفل";
+"child's name" = "اسم الطفل";
+"please enter child's name" = "الرجاء إدخال اسم الطفل";
+"Date of Birth" = "تاريخ الميلاد";
+"Age must be from 3 to 15 years" = "العمر يجب ان يكون من 3 الى 15 سنة";
+"Add Child" = "اضافة طفل";
+"choose Sex" = "اختر الجنس";
+"add" = "اضف";
+"the Activities" = "الأنشطة";
+"the Goals" = "الأهداف";
+"the reword" = "المكافاة";
+"Points" = "نقطة";
+
+"edit" = "تعديل ";
+"delete" = "حذف";
+"Choose Task Type" = "اختر نوع المهمة";
+"continuation" = "استمرار";
+
+"Activity name" = "اسم النشاط";
+"Enter the activity name" = "الرجاء إدخال اسم النشاط";
+"Number of points" = "عدد النقاط";
+"Enter the number of points" = "الرجاء إدخال عدد النقاط";
+"select all" = "تحديد الكل";
+"add New Activity" = "اضافة نشاط جديد";
+
+"adding" = "اضافة";
+"add New Goal" = "اضافة هدف جديد";
+"Goal name" = "اسم الهدف";
+"Enter the Goal name" = "الرجاء إدخال اسم الهدف";
+
+"Bonus store" = "متجر المكافأة";
+"Segments store" = "متجر شطور";
+
+"Edit profile" = "تعديل الملف الشخصي";
+"Your balance" = "رصيدك";
+"shatur store" = "متجر شطور";
+ "change Password" = "تغير كلمة المرور";
+"call us" = "اتصل بنا";
+"About the application" = "عن التطبيق";
+"Change" = "تغيير";
+
+"Your balance" = "رصيدك";
+"To increase your points balance" = "لزيادة رصيد نقاطك";
+"Uses of the balance" = "استخدمات الرصيد";
+"Watch a video" = "مشاهدة فيديو";
+"subscribe now" = "إشترك الأن";
+"Please choose the subscribtion type" = "الرجاء إختيار نوع الإشتراك";
+"Your balance is not Enough" = "لايوجد لديك رصيد نقاط كافي لإتمام المهمة";
+"show Ad" = "شاهد فيديو لمزيد من النقاط";
+"subscribtion" = "احصل على إشتراك";
+"Points discount" = "خصم نقاط";
+"The reason for deducting points" = "سبب خصم النقاط";
+"Please enter the reason for the discount" = "الرجاء إدخال سبب الخصم";
+"Please enter the number of points" = "الرجاء إدخال عدد النقاط";
+"Select kids" = "حدد الطفل";
+"Please select kids" = "الرجاء تحديد الاطفال";
+"Re-discount" = "إعادة خصم";
+"Previous discount" = "الخصم السابقة";
+"Award points" = "منح نقاط";
+"The reason for awarding points" = "سبب منح النقاط";
+"Please enter the awarding reason" = "الرجاء إدخال سبب المنح";
+"Award" = "منح";
+"Previous Award" = "المنح السابقة";
+"Resend" = "إعادة الرسال";
+"Segments store" = "متجر شطور";
+"One of the advantages of the Shator premium application is the ability to activate the Shator store for the child" = "من مميزات تطبيق شطور النسخة البريميوم   هو إمكانية تفعيل متجر شطور  للطفل
+";
+"Activate the store bits" = "تفعيل متجر شطور";
+"Enter the old password for your account And then the new word" = "قم بإدخال كلمة مرور القديمة لحسابك
+ومن ثم الكلمة الجديدة";
+
+"call us" = "اتصل بنا";
+"You can contact us if you need help" = "يمكنك التواصل معنا اذا احتجت المساعدة";
+"E-mail" = "البريد الالكتروني";
+"website" = "الموقع الالكتروني";
+"About Shator application" = "عن تطبيق شطور";
+"Tasks" = "المهام";
+"please choose the type" = "الرجاء إختيار النوع";
+"please enter your full Name" = "الرجاء إدخال الأسم بالكامل";
+
+
+
+"Please Enter the Date of Birth" = "الرجاء إدخال تاريخ ميلاد الطفل";
+"Please choose the relative realation" = "الرجاء إختيار صلة القرابة";
+"Please choose the child Image" = "الرجاء إختيار صورة الطفل";
+
+
+"Please Enter the number of points" = "الرجاء إدخال عدد النقاط";
+"Please Enter the Goal name" = "الرجاء إدخال اسم الهدف";
+"Please choose the Task Image" = "الرجاء إختيار صورة المهمة";
+"Please select the kids" = "الرجاء إختيار الأطفال";
+"Please Enter the activity name" = "الرجاء إدخال اسم النشاط";
+
+
+    "Add New gift" = "إضافة مكافأة جديدة";
+    "Gift name" = "اسم المكافأة ";
+"Please Enter the gift name" = "الرجاء إدخال اسم المكافأة";
+    "Enter the gift name" = "الرجاء إدخال اسم المكافأة";
+"Please choose the gift Image" = "الرجاء إختيار صورة المكافأة";
+
+"Please Enter the reason of discount" = "الرجاء إدخال سبب الخصم";
+"Please choose the child" = "الرجاء إختيار الطفل";
+"Please Enter the reason of award" = "الرجاء إدخال سبب المنح";
+"old Password is Empty" = "الرجاء إدخال كلمة المرور القديمة";
+
+
+"confirm new password is empty " = "تآكيد كلمة المرور الجديدة فارغة";
+"the Point" = "النقاط";
+"Child entry" = "دخول الطفل";
+
+"Add New Activity"       = "إضافة نشاط جديد";
+"Add New Goal"           = "إضافة هدف جديد";
+"Add New statistics"     = "إضافة إحصائية جديدة";
+
+"There are no registered children" = "لا يوجد أطفال مسجلون. يمكنك إضافة طفلك
+من خلال أيقونة الإضافة";
+
+
+"There are no tasks" = "لا يوجد مهام   يمكنك إضافة مهمة
+من خلال ايقونة إضافة ";
+
+"No rewards" = "لا يوجد مكافأت يمكنك إضافة مكافأة
+من خلال ايقونة إضافة ";
+
+"Award information" = "امنح طفلك نقاط تحفيزيه عندما يقوم باعمال ايجابية";
+"Discount information" = "اخصم من طفلك نقاط عندما يقوم باعمال سلبيه";
+"Unlimited points" = "عدد نقاط غير محدود";
+"Shatoor premium" = "شطور بريميوم";
+"Balance" = "الرصيد";
+"goal" = " هدف";
+
+"Goal Name" = "إسم المهمة";
+"Activity Name" = "إسم النشاط";
+"Reason for deduction of points" = "سبب خصم النقاط";
+"Reason for awarding points" = "سبب منح النقاط";
+"Bonus name" = "اسم المكافأة";
+"Total implementation" = "إجمالي التنفيذ";
+"activity" = "نشاط";
+"discount" = "خصم";
+"Hi" = "أهلا";
+"excellent" = "الشطور";
+"excellents" = "الشطورة";
+
+"NO_NOTNOW" = "لا، ليس الآن";
+"SIGNOUT" = "تسجيل الخروج";
+"YES_SIGNOUT" = "نعم، سجل الخروج";
+"SIGN_OUT_MESSAGE" = "هل تريد تسجيل الخروج من التطبيق ؟";
+
+"No grants" = "لا يوجد منح";
+"No discounts" = "لا يوجد خصومات";
+"No activites" = "لا يوجد انشطة";
+"No goals" = "لا يوجد اهداف";
+"You have no notifications" = "لا يوجد لديك إشعارات";
+"You have no registered children" = "لايوجد لديك ابناء مُسجلين";
+"Please add Childern First" = "لا يوجد أبناء مسجلين  يمكنك إضافة طفلك
+من خلال ايقونة إضافة ";
+"No Discounts Data" = "لا يوجد خصومات";
+"No Award Data"     = "لا يوجد منح";
+"Shatoor shop" = "متجر شطور";
+"Bonus shop" = "متجر المكافأة";
