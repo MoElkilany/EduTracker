@@ -19,13 +19,13 @@ class HelperTools {
         dafault.removeObject(forKey:UserDefaultsKeys.userData.rawValue)
     }
     
-    static func getToken()->String?{
-        let data = try?  HelperTools.dafault.getObject(forKey:UserDefaultsKeys.userData.rawValue, castTo: UserModelResponse.self)
-        if let userData = data {
-            return userData.token
-        }
-        return ""
-    }
+//    static func getToken()->String?{
+//        let data = try?  HelperTools.dafault.getObject(forKey:UserDefaultsKeys.userData.rawValue, castTo: UserModelResponse.self)
+//        if let userData = data {
+//            return userData.token
+//        }
+//        return ""
+//    }
     
     static  func getPrice(price : String)->String{
         return " \(price) " + "SAR".localized
@@ -63,25 +63,25 @@ class HelperTools {
         return nil
     }
     
-    static func saveUserData(respons:UserModelResponse?){
-        guard let userData = respons else {return}
-        try? UserDefaultHelper.shared.setDataToDefault(userData, forKey: UserDefaultsKeys.userData.rawValue)
-    }
+//    static func saveUserData(respons:UserModelResponse?){
+//        guard let userData = respons else {return}
+//        try? UserDefaultHelper.shared.setDataToDefault(userData, forKey: UserDefaultsKeys.userData.rawValue)
+//    }
+//
+//    static func setTabBarAsRoot() {
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        let ahjezTabBar = ExcellentTabBarController()
+//        ahjezTabBar.selectedIndex = 0
+//        appDelegate.window!.rootViewController = ahjezTabBar
+//    }
     
-    static func setTabBarAsRoot() {
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        let ahjezTabBar = ExcellentTabBarController()
-        ahjezTabBar.selectedIndex = 0
-        appDelegate.window!.rootViewController = ahjezTabBar
-    }
     
-    
-    static func setTabBarVC(Index:Int) {
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        let ahjezTabBar = ExcellentTabBarController()
-        ahjezTabBar.selectedIndex = Index
-        appDelegate.window!.rootViewController = ahjezTabBar
-    }
+//    static func setTabBarVC(Index:Int) {
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        let ahjezTabBar = ExcellentTabBarController()
+//        ahjezTabBar.selectedIndex = Index
+//        appDelegate.window!.rootViewController = ahjezTabBar
+//    }
     
     static func isFirstLaunch()->Bool{
         if dafault.bool(forKey: "first Launch") == true  {

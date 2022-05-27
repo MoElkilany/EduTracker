@@ -18,16 +18,16 @@ extension AppDelegate :LocalizationDelegate {
         let changeKidsLang =  HelperTools.dafault.bool(forKey: "changeLanguageFromKIDSModel")
 
         if changeFromSplash {
-            let vc  = LoginVC()
+            let vc  = UIViewController()
             window.rootViewController = vc
         }else{
            
             if changeLang {
 //                let mainHomeVC = UINavigationController(rootViewController: MainVC())
 //                window.rootViewController = mainHomeVC
-                HelperTools.setTabBarAsRoot()
+//                HelperTools.setTabBarAsRoot()
             }else if changeKidsLang {
-                let childHomeVC = UINavigationController(rootViewController: ChildHomeVC())
+                let childHomeVC = UINavigationController(rootViewController: UIViewController())
                 window.rootViewController = childHomeVC
             }
         }
