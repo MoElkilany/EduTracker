@@ -327,6 +327,7 @@ class NetworkManager {
 //            }
 //    }
 //
+    
 //
 //    static func ChangeActivateStoreNetwork(isActive:String , completion:@escaping (AFResult<ChangeStoreActiviationResponse>)->Void){
 //        AF.request(Router.ChangeActivateStore(isActive: isActive))
