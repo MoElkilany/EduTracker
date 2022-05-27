@@ -11,7 +11,6 @@
 		0A57C85E2833078F00D1ABCA /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57C8532833078E00D1ABCA /* Constant.swift */; };
 		0A57C85F2833078F00D1ABCA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57C8542833078F00D1ABCA /* NetworkManager.swift */; };
 		0A57C8602833078F00D1ABCA /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57C8552833078F00D1ABCA /* Router.swift */; };
-		0A57C8612833078F00D1ABCA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A57C8572833078F00D1ABCA /* Localizable.strings */; };
 		0A57C8622833078F00D1ABCA /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57C85A2833078F00D1ABCA /* LanguageManager.swift */; };
 		0A57C8632833078F00D1ABCA /* resetAppLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57C85B2833078F00D1ABCA /* resetAppLanguage.swift */; };
 		0A57C8642833078F00D1ABCA /* PushNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A57C85D2833078F00D1ABCA /* PushNotificationManager.swift */; };
@@ -31,12 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A1D7BE728411FC400A5C184 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = swiftgen.yml; sourceTree = "<group>"; };
 		0A57C84F2833053000D1ABCA /* Swinject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swinject.swift; sourceTree = "<group>"; };
 		0A57C8532833078E00D1ABCA /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		0A57C8542833078F00D1ABCA /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		0A57C8552833078F00D1ABCA /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
-		0A57C8582833078F00D1ABCA /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
-		0A57C8592833078F00D1ABCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		0A57C85A2833078F00D1ABCA /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
 		0A57C85B2833078F00D1ABCA /* resetAppLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resetAppLanguage.swift; sourceTree = "<group>"; };
 		0A57C85D2833078F00D1ABCA /* PushNotificationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotificationManager.swift; sourceTree = "<group>"; };
@@ -71,6 +69,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A093B092840FB5700770279 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
 		0A57C84E2833052500D1ABCA /* Swinject */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +107,6 @@
 		0A57C8562833078F00D1ABCA /* LanguageManager */ = {
 			isa = PBXGroup;
 			children = (
-				0A57C8572833078F00D1ABCA /* Localizable.strings */,
 				0A57C85A2833078F00D1ABCA /* LanguageManager.swift */,
 				0A57C85B2833078F00D1ABCA /* resetAppLanguage.swift */,
 			);
@@ -220,6 +224,7 @@
 		0AE24719280AF91E004B3E00 = {
 			isa = PBXGroup;
 			children = (
+				0A1D7BE728411FC400A5C184 /* swiftgen.yml */,
 				0AE24724280AF91E004B3E00 /* EduTracker */,
 				0AE24723280AF91E004B3E00 /* Products */,
 				376A466CF8AB453D0EBA119F /* Pods */,
@@ -238,6 +243,7 @@
 		0AE24724280AF91E004B3E00 /* EduTracker */ = {
 			isa = PBXGroup;
 			children = (
+				0A093B092840FB5700770279 /* SwiftGen */,
 				0A57C87028330D9400D1ABCA /* Base */,
 				0A57C8512833078E00D1ABCA /* App Manager */,
 				0AE231DE28329D91008D9542 /* Modules */,
@@ -318,7 +324,6 @@
 			buildConfigurationList = 0AE24736280AF921004B3E00 /* Build configuration list for PBXNativeTarget "EduTracker" */;
 			buildPhases = (
 				26D30E648AB573325C39CFD2 /* [CP] Check Pods Manifest.lock */,
-				0AF19A382833F53000A8345B /* ShellScript */,
 				0AE2471E280AF91E004B3E00 /* Sources */,
 				0AE2471F280AF91E004B3E00 /* Frameworks */,
 				0AE24720280AF91E004B3E00 /* Resources */,
@@ -356,7 +361,6 @@
 			knownRegions = (
 				en,
 				Base,
-				ar,
 			);
 			mainGroup = 0AE24719280AF91E004B3E00;
 			productRefGroup = 0AE24723280AF91E004B3E00 /* Products */;
@@ -373,7 +377,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0A57C8612833078F00D1ABCA /* Localizable.strings in Resources */,
 				0AE24732280AF921004B3E00 /* LaunchScreen.storyboard in Resources */,
 				0AE2472F280AF921004B3E00 /* Assets.xcassets in Resources */,
 				0AEAFCA22832A4DC00CEAF9C /* LandingPagesViewController.xib in Resources */,
@@ -384,23 +387,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0AF19A382833F53000A8345B /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/SwiftGen/bin/swiftgen\"\n";
-		};
 		26D30E648AB573325C39CFD2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -485,15 +471,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0A57C8572833078F00D1ABCA /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				0A57C8582833078F00D1ABCA /* ar */,
-				0A57C8592833078F00D1ABCA /* en */,
-			);
-			name = Localizable.strings;
-			sourceTree = "<group>";
-		};
 		0AE24730280AF921004B3E00 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

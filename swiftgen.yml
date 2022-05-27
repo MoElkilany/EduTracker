@@ -1,0 +1,11 @@
+strings:
+  inputs: EduTracker/Base.lproj
+  outputs:
+    - templateName: structured-swift5
+      output: EduTracker/SwiftGen/Strings.swift
+xcassets:
+  inputs: EduTracker/Assets.xcassets
+  outputs:
+    - templateName: swift5
+      output: EduTracker/SwiftGen/Assets.swift
+
