@@ -318,6 +318,7 @@ class NetworkManager {
 //            }
 //    }
 //
+    
 //
 //    static func getSubscriptionsNetwork(  completion:@escaping (AFResult<subscriptionModel>)->Void){
 //        AF.request(Router.GetSubscriptions)
